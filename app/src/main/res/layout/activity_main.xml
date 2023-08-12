@@ -5,38 +5,48 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <!-- RadioGroup to select the type of dice -->
     <RadioGroup
         android:id="@+id/diceRadioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <RadioButton
+    <!-- RadioGroup to select the type of dice -->
+          <RadioButton
             android:id="@+id/radio4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="4 Sides" />
+            android:text="@string/foursides" />
 
-        <!-- Add more RadioButtons for other dice sides -->
 
     </RadioGroup>
 
+    <!-- Button to roll the selected dice -->
     <Button
         android:id="@+id/rollButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Roll" />
+        android:text="@string/roll"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
 
+    <!-- Button to roll the selected dice twice -->
     <Button
         android:id="@+id/rollTwiceButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Roll Twice" />
+        android:text="@string/roll_twice"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
 
+    <!-- TextView to display the result of dice roll -->
     <TextView
         android:id="@+id/resultTextView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Result: " />
+        android:text="@string/result" />
+
 
 </LinearLayout>

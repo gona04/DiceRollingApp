@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DiceRollingApp</string>
+    <string name="foursides">4 Sides</string>
+    <string name="roll">Roll</string>
+    <string name="roll_twice">Roll Twice</string>
+    <string name="result">"Result: "</string>
 </resources>
