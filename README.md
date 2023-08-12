@@ -1,0 +1,5 @@
+# DiceRollingApp
+
+STUDENT ID: A00277328
+STUDENT NAME: GOONJA GANDHI
+THIS IS the final project 
